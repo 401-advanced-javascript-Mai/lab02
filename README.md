@@ -16,4 +16,4 @@ Any tests of note?no
 Describe any tests that you did not complete, skipped, etc?completed
 
 UML
-https://github.com/401-advanced-javascript-Mai/lab02/blob/class02/lab%2002.jpg?raw=true
+https://ltuc-advtech.slack.com/files/UNFSA8M6W/FT5NCD37H/img______________________________.jpg
