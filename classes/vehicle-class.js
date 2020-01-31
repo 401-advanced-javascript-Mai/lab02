@@ -2,45 +2,45 @@
 'use strict';
 
 class Vehicle{
-    constructor(name , wheels){
-        this.name = name ;
-        this.wheels = wheels
-    }
+  constructor(name , wheels){
+    this.name = name ;
+    this.wheels = wheels;
+  }
 
-    drive(){
-        return 'Moving Forward';
-    }
+  drive(){
+    return 'Moving Forward';
+  }
 
-    stop(){
-        return 'stopping'
-    }
+  stop(){
+    return 'stopping';
+  }
 }
 
 class Car extends Vehicle {
-    constructor(name ,wheels){
-        super(name ,4)
-    }
+  constructor(name ,wheels){
+    super(name ,4);
+  }
 
-    run(){
-        super.drive();
-        super.stoop();
-    }
+  run(){
+    super.drive();
+    super.stoop();
+  }
 
 }
 
 class Motorcycle extends Vehicle{
-constructor(name ,wheels){
+  constructor(name ,wheels){
     super(name, 2);
-}
+  }
 
-    wheelie(){
-        return 'Wheeel' ;
-    }
+  wheelie(){
+    return 'Wheeel' ;
+  }
 
-    run(){
-        super.drive() ;
-        super.stop();
-    }
+  run(){
+    super.drive() ;
+    super.stop();
+  }
 }
 module.exports = {Car , Motorcycle};
 
